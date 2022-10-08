@@ -6,7 +6,7 @@ const DivisasPage = () => {
 	console.log(username)
 	console.log(isLogged())
 
-	return <div></div>
+	return <div>DivisasPage</div>
 }
 
 export default DivisasPage
