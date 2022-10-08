@@ -1,5 +1,12 @@
-const DivisasPage = () => {
-  return <div>DivisasPage</div>;
-};
+import useUser from '../data/context/useUser'
 
-export default DivisasPage;
+const DivisasPage = () => {
+	const { username, isLogged } = useUser()
+
+	console.log(username)
+	console.log(isLogged())
+
+	return <div></div>
+}
+
+export default DivisasPage
